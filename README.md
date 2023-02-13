@@ -10,4 +10,4 @@
 Далее мы будем рассматривать примеры различных шаблонов проектирования их + и -. Фундаментальное изучение паттернов можно начать с страницы в Википедии -> https://ru.wikipedia.org/wiki/Шаблон_проектирования
 
 1. Singleton - это шаблон проектирования, который гарантирует, что класс имеет только один экземпляр и предоставляет глобальную точку доступа к этому экземпляру. Основная идея, лежащая в основе шаблона, заключается в создании единственного экземпляра класса и предоставлении глобальной точки доступа к этому экземпляру.
--> https://github.com/IgorMartynkin1981/DesignPatterns/tree/master/src/main/java/org/example/singletons
+-> [Singletons pattern](https://github.com/IgorMartynkin1981/DesignPatterns/tree/master/src/main/java/org/example/singletons)
