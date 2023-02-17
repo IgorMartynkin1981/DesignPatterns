@@ -21,26 +21,37 @@ public class Main {
         Transmission transmission = new Transmission("Коробка передач", "4х ступенчатая", 20);
         Car car = new Car("Лада Приора", "Седан", "Чёрный", engine, transmission);
 
-        Car car1 = (Car) car.clone();
-        Clonable car2 = car.cloneInterface();
+        Car car1 = (Car) car.clone(); // официальная реализация
+        Car car2 = (Car) car.cloneInterface(); // самописная реализация
+//        car1.setName("Toyota");
+//        car2.setName("Kia");
 
         {
             System.out.println(car);
             System.out.println(car1);
+            System.out.println(car2);
         }
 
         {
-            if (car == car1) {
-                System.out.println("car == car1");
-            }
             if (car.equals(car1)) {
                 System.out.println("car.equals(car1)");
+            } else {
+                System.out.println("NO car.equals(car1)");
             }
-            if (car == car2) {
-                System.out.println("car == car2");
+            if (car == car1) {
+                System.out.println("car == car1");
+            } else {
+                System.out.println("NO car == car1");
             }
             if (car.equals(car2)) {
                 System.out.println("car.equals(car2)");
+            } else {
+                System.out.println("NO car.equals(car2)");
+            }
+            if (car == car2) {
+                System.out.println("car == car2");
+            } else {
+                System.out.println("NO car == car2");
             }
         }
 
