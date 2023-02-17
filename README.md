@@ -11,3 +11,6 @@
 
 1. Singleton - это шаблон проектирования, который гарантирует, что класс имеет только один экземпляр и предоставляет глобальную точку доступа к этому экземпляру. Основная идея, лежащая в основе шаблона, заключается в создании единственного экземпляра класса и предоставлении глобальной точки доступа к этому экземпляру.
 -> [Singletons pattern](https://github.com/IgorMartynkin1981/DesignPatterns/tree/master/src/main/java/org/example/singletons)
+
+2. Prototype - это шаблон проектирования, который позволяет создавать новые объекты путем копирования существующего объекта, а не создавать новые объекты с помощью конструктора класса.
+-> [Prototype Pattern](https://github.com/IgorMartynkin1981/DesignPatterns/tree/master/src/main/java/org/example/prototype)
